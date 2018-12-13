@@ -12,10 +12,12 @@ type Position = (Int,Int)
 
 main :: IO ()
 main = do
-  xs <- lines <$> readFile "./13DayInputT2.txt"
+  xs <- lines <$> readFile "./13DayInput.txt"
   let h = length xs
   let wagons = map wagonize $ findWagons xs h
   let cleanGrid = map (map clearGrid) xs
+  print cleanGrid
+  print wagons
   print $ part1 wagons cleanGrid
   print $ part2 wagons cleanGrid
 
@@ -49,15 +51,29 @@ part1 wagons grid
     findCrash = head $ head $ filter (\x -> length x > 1) $ group $ sort positions
 
 part2 wagons grid
-  | length newWagons == 1 = wagons
-  | isCrash   = part2 (sort removeCrashed) grid
+  | length newWagons == 1 = newWagons
+  -- | isCrash   = part2 (sort removeCrashed) grid
   | otherwise = part2 (sort newWagons) grid
   where
-    newWagons = map (step grid) wagons
+    newWagons = updateWagons grid wagons []
     positions = map (\(Wagon p _ _) -> p) newWagons
     isCrash   = nub positions /= positions
     findCrash = nub $ concat $ filter (\x -> length x > 1) $ group $ sort positions
     removeCrashed = filter (\(Wagon p _ _) -> p `notElem` findCrash) newWagons
+
+updateWagons :: [String] -> [Wagon] -> [Wagon] -> [Wagon]
+updateWagons grid [] ys = ys
+updateWagons grid (w:ws) ys
+  | (pos newWagon) `elem` positions ws
+  || (pos newWagon) `elem` positions ys =
+    updateWagons grid (updateWs (pos newWagon) ws) (updateWs (pos newWagon) ys)
+
+  | otherwise = updateWagons grid ws (newWagon:ys)
+  where
+    newWagon = step grid w
+    pos (Wagon p _ _) = p
+    positions xs = map (\(Wagon p _ _) -> p) xs
+    updateWs w ws = filter (\(Wagon p _ _) -> p /= w) ws
 
 
 step :: [String] -> Wagon -> Wagon

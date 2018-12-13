@@ -1,0 +1,7 @@
+Configuring finite-typelits-0.1.4.2...
+Preprocessing library for finite-typelits-0.1.4.2..
+Building library for finite-typelits-0.1.4.2..
+[1 of 2] Compiling Data.Finite.Internal ( src/Data/Finite/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Data/Finite/Internal.o )
+[2 of 2] Compiling Data.Finite      ( src/Data/Finite.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Data/Finite.o )
+Installing library in /home/saaffa/.stack/snapshots/x86_64-linux/lts-12.20/8.4.4/lib/x86_64-linux-ghc-8.4.4/finite-typelits-0.1.4.2-LNt8ccQ3rb0a6MNjjNxeu
+Registering library for finite-typelits-0.1.4.2..

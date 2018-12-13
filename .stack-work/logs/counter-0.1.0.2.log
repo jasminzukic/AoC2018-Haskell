@@ -1,0 +1,6 @@
+Configuring counter-0.1.0.2...
+Preprocessing library for counter-0.1.0.2..
+Building library for counter-0.1.0.2..
+[1 of 1] Compiling Data.Counter     ( src/Data/Counter.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Data/Counter.o )
+Installing library in /media/saaffa/Storage/Code/Haskell/AdventOfCode/AdventOfCode2018/.stack-work/install/x86_64-linux/lts-12.20/8.4.4/lib/x86_64-linux-ghc-8.4.4/counter-0.1.0.2-EtJRFg8ZlqFKA6N2hYdB7t
+Registering library for counter-0.1.0.2..

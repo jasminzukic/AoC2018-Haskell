@@ -1,0 +1,13 @@
+Configuring vector-builder-0.3.6...
+Preprocessing library for vector-builder-0.3.6..
+Building library for vector-builder-0.3.6..
+[1 of 8] Compiling VectorBuilder.Prelude ( library/VectorBuilder/Prelude.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/VectorBuilder/Prelude.o )
+[2 of 8] Compiling VectorBuilder.Core.Update ( library/VectorBuilder/Core/Update.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/VectorBuilder/Core/Update.o )
+[3 of 8] Compiling VectorBuilder.Core.Builder ( library/VectorBuilder/Core/Builder.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/VectorBuilder/Core/Builder.o )
+[4 of 8] Compiling VectorBuilder.MVector ( library/VectorBuilder/MVector.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/VectorBuilder/MVector.o )
+[5 of 8] Compiling VectorBuilder.Builder ( library/VectorBuilder/Builder.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/VectorBuilder/Builder.o )
+[6 of 8] Compiling VectorBuilder.Vector ( library/VectorBuilder/Vector.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/VectorBuilder/Vector.o )
+[7 of 8] Compiling VectorBuilder.MonadPlus ( library/VectorBuilder/MonadPlus.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/VectorBuilder/MonadPlus.o )
+[8 of 8] Compiling VectorBuilder.Alternative ( library/VectorBuilder/Alternative.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/VectorBuilder/Alternative.o )
+Installing library in /home/saaffa/.stack/snapshots/x86_64-linux/lts-12.20/8.4.4/lib/x86_64-linux-ghc-8.4.4/vector-builder-0.3.6-AD5FeKXmenp4F2Nr8Hlux8
+Registering library for vector-builder-0.3.6..

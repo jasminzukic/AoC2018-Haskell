@@ -1,0 +1,7 @@
+Configuring pointedlist-0.6.1...
+Preprocessing library for pointedlist-0.6.1..
+Building library for pointedlist-0.6.1..
+[1 of 2] Compiling Data.List.PointedList ( Data/List/PointedList.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Data/List/PointedList.o )
+[2 of 2] Compiling Data.List.PointedList.Circular ( Data/List/PointedList/Circular.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Data/List/PointedList/Circular.o )
+Installing library in /home/saaffa/.stack/snapshots/x86_64-linux/lts-12.20/8.4.4/lib/x86_64-linux-ghc-8.4.4/pointedlist-0.6.1-GR5nkLsaHJa83qcksLDXGT
+Registering library for pointedlist-0.6.1..

@@ -1,0 +1,6 @@
+Configuring non-empty-containers-0.1.0.0...
+Preprocessing library for non-empty-containers-0.1.0.0..
+Building library for non-empty-containers-0.1.0.0..
+[1 of 1] Compiling Data.Set.NonEmpty ( src/Data/Set/NonEmpty.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Data/Set/NonEmpty.o )
+Installing library in /media/saaffa/Storage/Code/Haskell/AdventOfCode/AdventOfCode2018/.stack-work/install/x86_64-linux/lts-12.20/8.4.4/lib/x86_64-linux-ghc-8.4.4/non-empty-containers-0.1.0.0-36sqStZWMgcJ0ewjaTXUGs
+Registering library for non-empty-containers-0.1.0.0..

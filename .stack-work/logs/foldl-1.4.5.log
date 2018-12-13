@@ -1,0 +1,19 @@
+Configuring foldl-1.4.5...
+Preprocessing library for foldl-1.4.5..
+Building library for foldl-1.4.5..
+[1 of 6] Compiling Control.Foldl.Internal ( src/Control/Foldl/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Control/Foldl/Internal.o )
+[2 of 6] Compiling Control.Foldl.Optics ( src/Control/Foldl/Optics.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Control/Foldl/Optics.o )
+
+[;1msrc/Control/Foldl/Optics.hs:5:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m5 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m  |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[3 of 6] Compiling Control.Foldl    ( src/Control/Foldl.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Control/Foldl.o )
+[4 of 6] Compiling Control.Foldl.ByteString ( src/Control/Foldl/ByteString.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Control/Foldl/ByteString.o )
+[5 of 6] Compiling Control.Foldl.Text ( src/Control/Foldl/Text.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Control/Foldl/Text.o )
+[6 of 6] Compiling Control.Scanl    ( src/Control/Scanl.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Control/Scanl.o )
+Installing library in /home/saaffa/.stack/snapshots/x86_64-linux/lts-12.20/8.4.4/lib/x86_64-linux-ghc-8.4.4/foldl-1.4.5-GjWaCdQZHX698wvtQ5zcxP
+Registering library for foldl-1.4.5..
